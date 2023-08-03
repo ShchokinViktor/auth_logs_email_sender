@@ -5,7 +5,7 @@ This Bash script sends email notifications about authentication events in a Linu
 ## Table of Contents
 
 - [Description](#description)
-- [Installation and Usage](#installationandusage)
+- [Installation](#installation)
 - [Options](#options)
 - [Requirements](#requirements)
 - [Installation](#installation)
