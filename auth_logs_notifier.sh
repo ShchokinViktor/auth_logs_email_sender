@@ -28,7 +28,7 @@ check_period_limit() {
 validate_period() {
   local period="$1"
 
-  if [[ "$period" =~ ^([1-9][0-9]*)([h])$ ]]; then
+  if [ "$period" =~ ^([1-9][0-9]*)([h])$ ]; then
     numeric_value="${BASH_REMATCH[1]}"
 
     check_period_limit "$numeric_value"
@@ -101,7 +101,6 @@ while getopts ":hp:r:" flag; do
   p) validate_period "$OPTARG"; period="$OPTARG";;
   r) validate_email_address "$OPTARG"; recipient="$OPTARG";;
   \?) echo "ERROR: Unknown flag '-$OPTARG'. Use '-h' for help"; exit 1;;
-  *) echo "Invalid Option: '$OPTARG' requires an argument";;
   esac
 done
 
