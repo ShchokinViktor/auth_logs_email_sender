@@ -17,7 +17,7 @@ This script provides a convenient way to monitor and receive email notifications
 
 ## Installation and Usage
 
-1. Clone this repository: `git clone git@github.com:ShchokinViktor/auth_logs_email_sender.git`.
+1. Clone this repository: `git clone git@github.com:ShchokinViktor/auth_logs_notifier.git`.
 2. Navigate to the project directory: `cd auth_logs_notifier`.
 3. Make the script executable: `chmod +x auth_logs_notifier.sh`.
 4. Run the script with `sudo` privileges: `sudo ./auth_logs_notifier.sh`.
